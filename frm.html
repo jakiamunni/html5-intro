@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pithe form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="semantic.html">Semantic</a>
+                    </li>
+                <li><a href="table.html">Table</a> </li>
+                <li><a href="navigation.html">navbar</a></li>
+                <li><a href="audio&video.html">Media</a></li>
+            </ul>
+
+            <h2>My salary sheet</h2>
+        </nav>
+    </header>
+    <h2>Welcome To Jamaler Maa pitha ghor</h2>
+    <label for="name"> Your Name
+        <input id="name" type="text" placeholder="Your name">
+    </label>
+    
+    <label for="name">Your Email
+        <input id="name" type="text" placeholder="Your Email">
+    </label>
+    <fieldset>
+        <legend>Pick one pitha</legend>
+        <label for="chitoi">
+            <input type="radio" name="chitoi" id="chitoi">
+            Chitoi pitha
+        </label>
+        <label for="dudh chitoi">
+            <input type="radio" name="chitoi" id="dudh chitoi">
+            Dudh Chitoi pitha
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Select vorta</legend>
+        <label for="vorta">
+            <input type="checkbox" name="sorisha" id="sorisha">
+Sorisha vorta
+        </label>
+        <label for="vorta">
+            <input type="checkbox" name="shutki" id="shutki">
+Shutki vorta
+        </label>
+        <label for="vorta">
+            <input type="checkbox" name="dhoniya" id="dhoniya">
+dhoniya vorta
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="60" rows="3"></textarea>
+    </fieldset>
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+    
+</body>
+
+</html>
